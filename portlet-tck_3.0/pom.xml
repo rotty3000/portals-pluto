@@ -81,7 +81,7 @@
       <test.ignore.list.name>ignoredTestCases.xml</test.ignore.list.name>
       <test.ignore.list.file>${project.build.directory}/classes/${test.list.dir}/${test.ignore.list.name}</test.ignore.list.file>
 
-      <test.non.exclusive.file></test.non.exclusive.file>
+      <test.non.exclusive.file>${project.build.directory}/classes/${test.list.dir}/nonExclusiveTestCases.xml</test.non.exclusive.file>
 
       <!-- This variable is used by the test driver to determine how test 
          page links are to be found. Values: generateURLs the driver generates URLs 

@@ -169,6 +169,7 @@
                  <artifactId>maven-war-plugin</artifactId>
                  <configuration>
                    <packagingExcludes>
+                      WEB-INF/liferay-plugin-package.properties,
                       WEB-INF/liferay-portlet.xml,
                       WEB-INF/classes/log4j.properties
                    </packagingExcludes>
